@@ -1,0 +1,53 @@
+
+ @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.text-center {
+  text-align: center;
+}
+
+.invalid-input {
+  border: 1px solid #ff3e1d !important;
+
+}
+
+.invalid-alert {
+  color: #ff3e1d !important;
+  margin-top: 0.5rem;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  border-radius: 6px
+}
+
+.scroll thead tr th,
+.scroll tr th {
+  background: #404e67 none repeat scroll 0 0;
+  font-size: 14px;
+  padding: 12px 15px;
+  color: white;
+  text-align: center;
+}
+
+
+.table td {
+  padding: 7px 10px;
+ 
+  border: 1px solid #eee;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+.scroll-container {
+ 
+  margin-bottom: 40px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+
+} 
+
